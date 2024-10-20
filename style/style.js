@@ -1,0 +1,183 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#EDE7F6',
+  },
+  header: {
+    marginTop: 30,
+    marginBottom: 15,
+    backgroundColor: '#5E35B1', 
+    flexDirection: 'row',
+    padding: 10,
+  },
+  footer: {
+    marginTop: 20,
+    backgroundColor: '#5E35B1', 
+    flexDirection: 'row',
+    padding: 10,
+    justifyContent: 'center',
+  },
+  title: {
+    color: '#fff',
+    fontWeight: 'bold',
+    flex: 1,
+    fontSize: 24, 
+    textAlign: 'center',
+    marginVertical: 10,
+  },
+  author: {
+    color: '#fff',
+    fontWeight: 'bold',
+    flex: 1,
+    fontSize: 16,
+    textAlign: 'center',
+    marginVertical: 5,
+  },
+  gameboard: {
+    backgroundColor: '#EDE7F6', 
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 20,
+    marginVertical: 20, 
+    marginHorizontal: 20, // Lisää tilaa vasemmalta ja oikealta
+  },
+  gameinfo: {
+    backgroundColor: '#EDE7F6',
+    textAlign: 'center',
+    justifyContent: 'center',
+    fontSize: 20,
+    color: '#5E35B1', 
+    marginTop: 15,
+    paddingHorizontal: 20,
+  },
+  row: {
+    marginTop: 20,
+    marginBottom: 15, 
+    padding: 10,
+    flexDirection: 'row',
+    justifyContent: 'space-between', 
+    alignItems: 'center',
+  },
+  flex: {
+    flexDirection: "row",
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  button: {
+    margin: 20,
+    flexDirection: "row",
+    padding: 12,
+    backgroundColor: "#7E57C2", 
+    width: 160,
+    borderRadius: 12,
+    justifyContent: 'center',
+    alignSelf: 'center', 
+  },
+  buttonText: {
+    color: "#fff", 
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  icon: {
+    alignSelf: 'center',
+    marginBottom: 20,
+  },
+  instructions: {
+    color: '#5E35B1', 
+    textAlign: 'center',
+    marginBottom: 20, 
+  },
+  input: {
+    borderColor: '#7E57C2', 
+    borderWidth: 1,
+    borderRadius: 8,
+    padding: 10,
+    marginBottom: 20, 
+    backgroundColor: '#fff',
+    textAlign: 'center', 
+    fontSize: 18,
+  },
+  rulesTitle: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    color: '#5E35B1', 
+    textAlign: 'center',
+    marginBottom: 10,
+  },
+  rulesText: {
+    fontSize: 16,
+    color: '#5E35B1', 
+    textAlign: 'justify', 
+    marginBottom: 20,
+    lineHeight: 24, 
+    marginHorizontal: 20
+  },
+  welcomeText: {
+    fontSize: 18,
+    color: '#5E35B1',
+    textAlign: 'center',
+    marginBottom: 20, 
+  },
+  pointsContainer: {
+    marginBottom: 20,
+    width: '100%',
+    justifyContent: 'center',
+  },
+  pointsSelectContainer: {
+    marginBottom: 20,
+    width: '100%',
+    justifyContent: 'center',
+  },
+  playerNameText: {
+    fontSize: 18,
+    color: '#5E35B1', 
+    textAlign: 'center',
+    marginBottom: 10,
+    marginTop: 10,
+  },
+  pointsText: {
+    fontSize: 18,
+    color: '#000000',  
+    textAlign: 'center',
+    marginBottom: 10,
+    marginTop: 10,
+  },
+  endStatusText: {
+    fontSize: 18,
+    color: '#b52d2d', // Punainen väri, kun peli on ohi tai virheviesti
+    textAlign: 'center',
+    marginBottom: 10,
+  },
+  infoText: {
+    fontSize: 18,
+    color: '#5E35B1', 
+    //textAlign: 'center',
+    marginBottom: 10, 
+    marginHorizontal: 20, // Lisää tilaa vasemmalta ja oikealta
+  },
+  gameButton: {
+    marginTop: 10,
+    marginBottom: 20,
+    paddingVertical: 12,
+    paddingHorizontal: 24,
+    backgroundColor: "#c9b6ea", 
+    borderRadius: 12,
+    justifyContent: 'center',
+    alignItems: 'center',
+    alignSelf: 'center', 
+  }
+  ,
+  newGameButton: {
+    marginTop: 10,
+    marginBottom: 20,
+    paddingVertical: 12,
+    paddingHorizontal: 24,
+    backgroundColor: "#c9b6ea", 
+    borderRadius: 12,
+    justifyContent: 'center',
+    alignItems: 'center',
+    alignSelf: 'center', 
+  }
+});
